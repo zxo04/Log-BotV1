@@ -1,6 +1,6 @@
 import cv2
  
-img = cv2.imread('.log.png')
+img = cv2.imread('log.png')
  
 # cv2.imread() -> takes an image as an input
 h, w, channels = img.shape
