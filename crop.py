@@ -1,6 +1,6 @@
 import cv2
  
-img = cv2.imread('./img/log.png')
+img = cv2.imread('.log.png')
  
 # cv2.imread() -> takes an image as an input
 h, w, channels = img.shape
@@ -33,6 +33,6 @@ bottom = img[half2:, :]
 # saving all the images
 # cv2.imwrite() function will save the image
 # into your pc
-cv2.imwrite('./img/right.jpg', right_part)
+cv2.imwrite('right.jpg', right_part)
 
 cv2.waitKey(0)
